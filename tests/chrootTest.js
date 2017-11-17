@@ -14,6 +14,7 @@ xrequire.chroot(__dirname);
 try{
     var testModule = require('testmodule');
 } catch(err){
+
     assert(err.toString() == "Error: Security error caused by xrequire.chroot");
     console.log("First xrequire.chroot test: successfull!");
 
@@ -28,7 +29,7 @@ try{
     console.log("All good! Second xrequire.chroot test: successfull!");
     return;
 } catch(err){
-    console.log("Fail Second xrequire.chroot  tested failed!", err);
+    console.log("Fail Second xrequire.chroot  tested failed!", err.stack);
 }
 
 console.log("Test failed!");
