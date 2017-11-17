@@ -1,0 +1,39 @@
+{
+  "name": "testmodule",
+  "description": "Control your asynchronous code with explicit flows! Created mainly for simplifying code within SwarmESB projects but can be used outside SwarmESB ecosystem",
+  "version": "0.6.2",
+  "_id": "testmodule@0.6.2",
+  "homepage": "https://github.com/salboaie/",
+  "author": {
+    "name": "Alboaie Sinica",
+    "email": "salboaie@gmail.com"
+  },
+  "contributors": [
+    {
+      "name": "Alboaie Sinica",
+      "email": "salboaie@gmail.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/salboaie/testmodule.git"
+  },
+  "bugs": {
+    "email": "salboaie@gmail.com",
+    "url": "https://github.com/salboaie/testmodule/issues"
+  },
+  "directories": {
+    "lib": "./lib"
+  },
+  "engines": {
+
+    "node": ">=0.6.0"
+  },
+  "main": "./lib/index.js",
+  "licenses": [
+    {
+      "type": "LGPL",
+      "url": "http://www.gnu.org/licenses/lgpl.html"
+    }
+  ]
+}
